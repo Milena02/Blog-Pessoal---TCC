@@ -1,0 +1,140 @@
+
+
+body {
+    margin:0;
+    background-image: url('img/imagemfundo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    font-family: Tahoma;
+    color: black;
+    
+}
+
+
+.imagem-topo{
+    width: 200px;
+    text-align: justify;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex;
+}
+
+
+.ModeloV {
+    margin: 0 auto; /* Centraliza horizontalmente */
+    width: 70%; /* Opcional: define uma largura */
+    display: flex;
+}
+    
+
+div {
+    width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    
+}
+
+h1 {
+    font-size: 24px;
+    font-family: Verdana;
+    color: #606062;
+    padding: 10px;
+    border: 5px solid #606062;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Verdana;
+    color: #7a797b;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+h3 {
+    background-image: url("img/contato.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    font-size:20px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: #606062;
+    padding: 10px 0;
+    margin-top: 30px;
+    border-top: 2px solid #606062;
+    border-bottom: 2px solid #606062;
+    border-style: dashed;
+   font-style: italic;
+   text-align: center;
+}
+h4{
+    font-size:20px;
+    font-style: italic;
+   text-align: center;
+
+}
+
+p {
+    font-size: 18px;
+    font-family: Verdana;
+    text-align: center;
+    line-height: 32px;
+    color: black;
+    margin-bottom: 35px;
+}
+
+span {
+    font-weight: bold;
+}
+
+a {
+    font-size: 16px;
+    font-family: 'Verdana';
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color:green;
+    border-radius: 30px;
+    text-align: center;
+    width: 15%; /* Opcional: define uma largura */
+    display: flex;
+}
+ol{
+    color:black;
+    font-family: Tahoma;
+    width: 600px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: justify;
+
+}
+span {
+    color:red;
+}
+
+
+.area-tres-imagens {
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+}
+
+
+
+.galeria img {
+    width: calc((100% / 3) - 3px);
+    margin: 0 1.5px;
+}
+
+.Agradecimentos {
+    width: 100%;
+    height: 100%;
+    padding: 16px 0;
+    text-align: center;
+    background: green;
+    color: #fff;
+    font-size: 20px;
+    overflow: auto;
+}
